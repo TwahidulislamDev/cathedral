@@ -10,18 +10,21 @@ ul,ol{
 }
 /* Header part Start  */
 #header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
     
-    background-color: rgba(0, 0, 0, 0.5);
 }
 .container{
-    padding: 30px 0;
+    padding: 25px 0;
     width: 1320px;
-    margin: 0 auto;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    /* position: fixed;
+    top: 15px;
+     */
 }
 .header_logo{
     /* padding: 41px 133px; */
@@ -97,5 +100,54 @@ ul,ol{
     align-items: end;
     transition: .5s;
 }
-
 /* Header part End  */
+
+/* Banner part start  */
+.banner_bg{
+    
+    background: url(../images/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner_overlay{
+    padding: 150px 0;
+    background: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    
+}
+.banner_overlay h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    font-size: 54px;
+}
+.banner_overlay p{
+    color: white;
+    font-family: "Source Sans 3", serif;
+    font-size: 14px;
+    padding: 25px;
+}
+
+.banner_button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #e4b855;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", serif;
+}
+.banner_button:hover{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #f2723f;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", serif;
+    transition: .5s;
+    box-shadow:inset;
+}
+
+
+/* Banner part End  */
