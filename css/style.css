@@ -152,11 +152,34 @@ ul,ol{
 /* Blog Section Start  */
 .blog_container{
     /* padding: 250px 0px; */
+    height: 450px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
 }
 .blog_img_div{
     width: 50%;
-    height: 600px;
+    height: 450px;
     
+}
+.blog_img{
+    width: 100%;
+    
+      
+}
+.blog_text{
+    width: 50%;
+    margin-left: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.blog_text div h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    padding: 20px 0;
 }
 
 /* Blog Section End  */
