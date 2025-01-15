@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* Header part Start  */
+#header_container{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    padding: 30px 0;
+    width: 1320px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo{
+    /* padding: 41px 133px; */
+    width: 133px;
+    height: 41px;
+    margin-left: 5px;
+}
+.header_menu ul li {
+    display: inline-block;
+    padding: 0px 15px;
+
+}
+.header_menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-family: "Source Sans 3", serif;
+}
+.header_menu ul li a:hover{
+    color: #f2723f;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-family: "Source Sans 3", serif;
+    transition: .5s;
+}
+
+.button_searchIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-right: 5px;
+}
+/* .btn_div{
+    
+} */
+.header_btn{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #e4b855;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", serif;
+}
+.header_btn:hover{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #f2723f;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", serif;
+    transition: .5s;
+    box-shadow:inset;
+}
+.fa-solid{
+    padding: 10px 10px;
+    /* height: 20px;
+    width: 20px; */
+    font-size: x-large;
+    color: #e4b855;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.fa-solid:hover{
+    padding: 10px 10px;
+    /* height: 20px;
+    width: 20px; */
+    font-size: x-large;
+    color: #f2723f;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: .5s;
+}
+
+/* Header part End  */
