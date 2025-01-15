@@ -112,7 +112,7 @@ ul,ol{
     
 }
 .banner_overlay{
-    padding: 150px 0;
+    padding: 160px 0;
     background: rgba(0, 0, 0, 0.50);
     text-align: center;
     
@@ -148,6 +148,15 @@ ul,ol{
     transition: .5s;
     box-shadow:inset;
 }
-
-
 /* Banner part End  */
+/* Blog Section Start  */
+.blog_container{
+    /* padding: 250px 0px; */
+}
+.blog_img_div{
+    width: 50%;
+    height: 600px;
+    
+}
+
+/* Blog Section End  */
