@@ -177,10 +177,59 @@ ul,ol{
 
 /* Card Section Start   */
 .card_bg{
-    padding: 250px 0;
+    
     background: url(../images/bg-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.card_overlay{
+    padding: 150px 0;
+    background: rgba(0, 0, 0, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caard_text h1{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+.caard_text p{
+    font-size: 14px;
+    font-family: "Source Sans 3", serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+.caard_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card_area{
+    padding: 60px 60px;
+    background: white;
+    margin: 50px 40px;
+    border-radius: 5px;
+}
+.card_area:hover{
+    padding: 60px 60px;
+    background:#e4b855;
+    margin: 50px 40px;
+    border-radius: 5px;
+    transition: .10s;
+}
+.fa-solid{
+    font-size: 50px;
+    color: black;
+}
+.card_area h3{
+    padding-top: 5px;
+    text-transform: uppercase;
 }
 /* Card Section End   */
