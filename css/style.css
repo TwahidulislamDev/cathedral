@@ -171,6 +171,7 @@ ul,ol{
 .blog_text{
     width: 50%;
     margin-left: 15px; 
+    margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -178,8 +179,8 @@ ul,ol{
 }
 .blog_text div h1{
     font-family: "Playfair Display", serif;
-    font-size: 30px;
-    padding: 20px 0;
+    font-size: 35px;
+    padding: 25px 0;
 }
 
 /* Blog Section End  */
