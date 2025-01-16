@@ -79,7 +79,7 @@ ul,ol{
     transition: .5s;
     box-shadow:inset;
 }
-.fa-solid{
+.search_icons .fa-solid{
     padding: 10px 10px;
     /* height: 20px;
     width: 20px; */
@@ -89,7 +89,7 @@ ul,ol{
     justify-content: center;
     align-items: end;
 }
-.fa-solid:hover{
+.search_icons .fa-solid:hover{
     padding: 10px 10px;
     /* height: 20px;
     width: 20px; */
@@ -104,18 +104,15 @@ ul,ol{
 
 /* Banner part start  */
 .banner_bg{
-    
     background: url(../images/slider-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 .banner_overlay{
     padding: 160px 0;
     background: rgba(0, 0, 0, 0.50);
-    text-align: center;
-    
+    text-align: center;  
 }
 .banner_overlay h1{
     color: white;
@@ -129,7 +126,6 @@ ul,ol{
     font-size: 14px;
     padding: 25px;
 }
-
 .banner_button{
     padding: 10px 40px;
     border: none;
@@ -202,14 +198,12 @@ ul,ol{
     font-family: "Source Sans 3", serif;
     text-align: center;
     color: white;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px; 
 }
 .caard_div{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;  
 }
 .card_area{
     padding: 60px 60px;
@@ -226,10 +220,15 @@ ul,ol{
 }
 .fa-solid{
     font-size: 50px;
-    color: black;
+    color: black;  
+}
+.card_area i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card_area h3{
-    padding-top: 5px;
+    padding-top: 10px;
     text-transform: uppercase;
 }
 /* Card Section End   */
