@@ -11,9 +11,13 @@ ul,ol{
 /* Header part Start  */
 #header_container{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    background: black;
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
     
 }
 .container{
@@ -110,7 +114,7 @@ ul,ol{
     background-size: cover;  
 }
 .banner_overlay{
-    padding: 160px 0;
+    padding: 210px 0;
     background: rgba(0, 0, 0, 0.50);
     text-align: center;  
 }
