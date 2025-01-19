@@ -13,7 +13,7 @@ ul,ol{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -72,6 +72,7 @@ ul,ol{
     background: #e4b855;
     text-transform: uppercase;
     font-family: "Source Sans 3", serif;
+    color: white;
 }
 .header_btn:hover{
     padding: 10px 40px;
@@ -82,6 +83,7 @@ ul,ol{
     font-family: "Source Sans 3", serif;
     transition: .5s;
     box-shadow:inset;
+    color:white;
 }
 .search_icons .fa-solid{
     padding: 10px 10px;
@@ -137,6 +139,7 @@ ul,ol{
     background: #e4b855;
     text-transform: uppercase;
     font-family: "Source Sans 3", serif;
+    color: #ffff;
 }
 .banner_button:hover{
     padding: 10px 40px;
@@ -146,7 +149,7 @@ ul,ol{
     text-transform: uppercase;
     font-family: "Source Sans 3", serif;
     transition: .5s;
-    box-shadow:inset;
+    color: #ffff;
 }
 /* Banner part End  */
 
@@ -236,3 +239,117 @@ ul,ol{
     text-transform: uppercase;
 }
 /* Card Section End   */
+/* Partition div part start */
+.partition_text{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.partition_text p{
+    font-family: "Source Sans 3", serif;
+    font-size: 20px;
+    padding: 0px 445px;
+    /* font-size: 29px; */
+}
+.partition_div{
+    padding-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstPartition_fiv{
+    background: url(../images/sermons-01.jpg);
+    width: 49.5%;
+    height: 500px;
+    position: relative;
+}
+.firstPartition_overlay{
+    width: 100%;
+    height: 260px;
+    background:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.firstPartition_overlay h2{
+    padding-top: 40px;
+    
+    padding-left: 20px ;
+    font-family: "Playfair Display", serif;
+    color: white;
+    
+}
+.johan{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.san{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    line-height: 22px;
+}
+.johan p{
+    color: white;
+    padding:20px 20px ;
+}
+.johan .speak{
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Source Sans 3", serif;
+}
+.johan .jon{
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Source Sans 3", serif;
+    color: #e4b855;
+    padding-right: 20px;
+}
+.johan .date{
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Source Sans 3", serif;
+}
+.partition_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+.partition_icons .fa-solid{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    padding: 0px 25px;
+    /* line-height: 22px;  */
+}
+.firstPartition_overlay p{
+    font-family: "Source Sans 3", serif;
+    padding: 15px 20px;
+    color: rgba(255, 255, 255, 0.60); 
+}
+.firstPartition_overlay a{
+    color: #e4b855;
+    font-size: 16px;
+    font-family: "Source Sans 3", serif;
+    padding: 15px 20px;
+    font-style: italic;
+}
+.secondPatition_div{
+    background: url(../images/sermons-02.jpg);
+    width: 49.5%;
+    height: 500px;
+    position: relative;
+}
+
+
+/* Partition div part end */
